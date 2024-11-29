@@ -277,7 +277,7 @@ app.post('/connect', async (req, res) => {
 });
 
 app.get("/*", async (req, res) => {
-    res.destroy();
+    res.status(404).send(`Cannot ${req.method} ${req.originalUrl}`);
 });
 
 app.post("/*", async (req, res) => {
