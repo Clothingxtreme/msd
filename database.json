@@ -4,5 +4,5 @@
   "connectionKey": "wqR7!zXp3@TnL#9Fg&k$H8vB2C4MmY5^Jd",
   "solanaRPCHostHTTPS": "https://solana-mainnet.g.alchemy.com/v2/EpWLsX93UzM26jS8MD9qU3HhFgAiKWy7",
   "solanaRPCHostWSS": "wss://api.mainnet-beta.solana.com",
-  "backendPort": 5000
+  "backendPort": 3000
 }
